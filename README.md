@@ -155,6 +155,20 @@ main: En este método, se definen dos matrices de ejemplo (terreno y construccio
 
 En resumen, este código proporciona una implementación básica de la multiplicación de matrices y la impresión de matrices, junto con un ejemplo de uso en el método main.
 
+## Ejercicio 6)
+
+
+Este código en Java implementa un "Comunicador Interplanetario" que realiza varias funciones de procesamiento de mensajes:
+
+Contar Vocales (contarVocales): Esta función toma un mensaje como entrada y cuenta el número de vocales que contiene. Utiliza un bucle for para iterar sobre cada caracter del mensaje y verifica si es una vocal (mayúscula o minúscula) utilizando el método indexOf de la clase String.
+
+Invertir Mensaje (invertirMensaje): Esta función toma un mensaje como entrada y devuelve una versión invertida del mismo. Utiliza un StringBuilder para construir el mensaje invertido, recorriendo el mensaje original de atrás hacia adelante.
+
+Verificar si es Palíndromo (esPalindromo): Esta función verifica si un mensaje dado es un palíndromo, es decir, si se lee igual de adelante hacia atrás que de atrás hacia adelante. Primero, elimina todos los caracteres que no son letras y los convierte a minúsculas. Luego, utiliza la función invertirMensaje para obtener la versión invertida del mensaje. Finalmente, compara el mensaje original con su versión invertida para determinar si son iguales.
+
+En el método main, el programa solicita al usuario que ingrese un mensaje. Luego, utiliza las funciones definidas para contar vocales, invertir el mensaje y verificar si es un palíndromo. Finalmente, imprime los resultados correspondientes.
+
+Por ejemplo, si el usuario ingresa "Anita lava la tina", el programa mostrará que hay 8 vocales en el mensaje, el mensaje invertido será "anit al aval atinA", y se indicará que el mensaje no es un palíndromo.
 
 
 
