@@ -1,5 +1,3 @@
-package org.example;
-
 public class CronometroCosmico {
     // Factor de conversión para Xenon
     private static final double SEGUNDOS_XENON = 86400.0; // Segundos en un día xenoniano
