@@ -108,3 +108,6 @@ getNombre(): Un método que devuelve el nombre del factor crítico.
 getLimiteInferior(): Un método que devuelve el límite inferior aceptable para el factor crítico.
 getLimiteSuperior(): Un método que devuelve el límite superior aceptable para el factor crítico.
 En resumen, esta clase encapsula la información y el comportamiento relacionados con un factor crítico, permitiendo que sea fácilmente manipulado y consultado en el contexto de un sistema de alerta y monitoreo.
+
+# Ejercicio 4)
+
