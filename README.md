@@ -1,6 +1,6 @@
 # https://github.com/aalvaroo7/Casointegrador_tema1.git
 
-## Ejercicio 1)
+# Ejercicio 1)
 Este código Java define una clase llamada CronometroCosmico, que incluye un método main() y un método adicional convertirTiempoXenon() para realizar conversiones de tiempo entre la Tierra y el planeta ficticio Xenon. Aquí está el desglose del código:
 
 Constantes:
@@ -20,7 +20,7 @@ Luego, calcula el equivalente en minutos, horas, días y años xenonianos.
 Finalmente, devuelve el tiempo en segundos en Xenon.
 En resumen, este programa toma un tiempo en la Tierra en segundos y lo convierte a tiempo en Xenon utilizando factores de conversión predefinidos para los días y años xenonianos. Esto es útil para hacer cálculos o comparaciones de tiempo entre la Tierra y un mundo ficticio como Xenon.
 
-## Ejercicio 2)
+# Ejercicio 2)
 1. **Importaciones de paquetes:**
    ```java
    import java.util.ArrayList;
