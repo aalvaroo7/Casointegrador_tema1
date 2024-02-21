@@ -111,3 +111,36 @@ En resumen, esta clase encapsula la información y el comportamiento relacionado
 
 # Ejercicio 4)
 
+Este código Java implementa un Planificador de Tareas que organiza y distribuye las tareas diarias entre los miembros de la tripulación. Aquí está la explicación de cada parte del código:
+
+Clase MiembroTripulacion:
+
+Representa un miembro de la tripulación.
+Tiene un atributo nombre para almacenar el nombre del miembro.
+Posee un constructor que recibe el nombre del miembro y un método getNombre() para obtener el nombre.
+Clase PlanificadorTareas:
+
+Representa el planificador de tareas.
+Utiliza un HashMap para almacenar las asignaciones de tareas, donde la clave es un MiembroTripulacion y el valor es una cadena que representa la tarea asignada.
+Tiene un constructor que inicializa el mapa de tareas diarias.
+El método asignarTarea() asigna una tarea diaria a un miembro de la tripulación.
+El método visualizarTareas() muestra las tareas diarias asignadas a cada miembro.
+El método calcularCargaTrabajoOptima() calcula la carga de trabajo óptima sumando las longitudes de las tareas asignadas a cada miembro.
+Método main:
+
+En el método main, se crea una instancia de PlanificadorTareas.
+Se crean dos miembros de la tripulación ("Juan" y "María").
+Se asignan tareas diarias a cada miembro utilizando el método asignarTarea().
+Se visualizan las tareas asignadas utilizando el método visualizarTareas().
+Se calcula y muestra la carga de trabajo óptima utilizando el método calcularCargaTrabajoOptima().
+En resumen, este código muestra cómo crear un sistema simple de planificación de tareas para distribuir y visualizar las tareas diarias entre los miembros de una tripulación, así como calcular la carga de trabajo total.
+
+# Ejercicio 5)
+
+
+
+
+
+
+
+
