@@ -137,6 +137,29 @@ En resumen, este código muestra cómo crear un sistema simple de planificación
 
 # Ejercicio 5)
 
+Este código implementa un "Navegador Estelar" que realiza dos tareas principales:
+
+Multiplicación de Matrices: La clase NavegadorEstelar contiene un método estático llamado multiplicarMatrices, que toma dos matrices como entrada y devuelve su producto. Este método utiliza el algoritmo estándar para la multiplicación de matrices.
+
+Impresión de Matriz: La clase también contiene un método estático llamado imprimirMatriz, que toma una matriz como entrada y la imprime en la consola en un formato legible.
+
+Además, el método main muestra un ejemplo de uso de estos métodos. Crea dos matrices de ejemplo terreno y construcciones, luego intenta multiplicarlas utilizando el método multiplicarMatrices. Si las matrices no tienen dimensiones compatibles para la multiplicación, se lanza una excepción IllegalArgumentException. En este caso, el programa captura la excepción e imprime un mensaje de error.
+
+Veamos la explicación de cada parte del código más detalladamente:
+
+multiplicarMatrices: Este método calcula el producto de dos matrices. Primero verifica si las matrices tienen dimensiones compatibles para la multiplicación (el número de columnas de la primera matriz debe ser igual al número de filas de la segunda matriz). Luego, crea una nueva matriz para almacenar el resultado y utiliza tres bucles anidados para realizar la multiplicación de matrices.
+
+imprimirMatriz: Este método imprime una matriz en la consola. Utiliza un StringBuilder para construir una representación de cadena de la matriz y luego imprime la cadena resultante.
+
+main: En este método, se definen dos matrices de ejemplo (terreno y construcciones). Luego, intenta multiplicar estas matrices utilizando el método multiplicarMatrices. Si la multiplicación es exitosa, imprime el resultado utilizando el método imprimirMatriz. Si ocurre un error debido a dimensiones incompatibles, captura la excepción IllegalArgumentException y muestra un mensaje de error.
+
+En resumen, este código proporciona una implementación básica de la multiplicación de matrices y la impresión de matrices, junto con un ejemplo de uso en el método main.
+
+
+
+
+
+
 
 
 
