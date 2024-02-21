@@ -68,7 +68,7 @@ Constructor:
 SistemaAlertaMonitoreo(): Inicializa la lista de factores críticos como una instancia de ArrayList.
 Método agregarFactorCritico:
 
-void agregarFactorCritico(FactorCritico factorCritico): Agrega un factor crítico a la lista de factores a monitorear.
+void agregarFactorCritico(SistemaAlertaMonitoreo.FactorCritico factorCritico): Agrega un factor crítico a la lista de factores a monitorear.
 Método monitorear:
 
 void monitorear(): Itera sobre cada factor crítico en la lista y verifica si su valor actual está fuera del rango aceptable. Si es así, emite una alerta indicando el nombre del factor y que está fuera del rango aceptable.
@@ -85,7 +85,7 @@ En resumen, este código proporciona una estructura básica para un sistema de a
 
 ## Sistema alerta monitoreo
 
-Este código Java define una clase llamada FactorCritico, que representa un factor crítico a ser monitoreado en un sistema de alerta y monitoreo. Aquí está la explicación de cada parte del código:
+Este código Java define una clase llamada SistemaAlertaMonitoreo.FactorCritico, que representa un factor crítico a ser monitoreado en un sistema de alerta y monitoreo. Aquí está la explicación de cada parte del código:
 
 Atributos:
 
@@ -95,7 +95,7 @@ limiteInferior: Un número de punto flotante que representa el límite inferior 
 limiteSuperior: Un número de punto flotante que representa el límite superior aceptable para el factor crítico.
 Constructor:
 
-FactorCritico(String nombre, double limiteInferior, double limiteSuperior): Un constructor que inicializa los atributos nombre, limiteInferior y limiteSuperior del factor crítico.
+SistemaAlertaMonitoreo.FactorCritico(String nombre, double limiteInferior, double limiteSuperior): Un constructor que inicializa los atributos nombre, limiteInferior y limiteSuperior del factor crítico.
 Método actualizarValor:
 
 void actualizarValor(double valor): Un método que actualiza el valor actual del factor crítico con el valor proporcionado como argumento.
