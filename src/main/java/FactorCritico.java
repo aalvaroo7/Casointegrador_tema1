@@ -22,20 +22,17 @@ class FactorCritico {
         return valorActual < limiteInferior || valorActual > limiteSuperior;
     }
 
-    public String getNombre() {
-        return nombre;
-    }
-
-    public double getValorActual() {
-        return valorActual;
-    }
-
+    // Getters para los límites y el nombre
     public double getLimiteInferior() {
         return limiteInferior;
     }
 
     public double getLimiteSuperior() {
         return limiteSuperior;
+    }
+
+    public String getNombre() {
+        return nombre;
     }
 }
 
