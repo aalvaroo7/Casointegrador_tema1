@@ -1,7 +1,5 @@
 # https://github.com/aalvaroo7/Casointegrador_tema1.git
 ## Ejercicio 1)
-Claro, aquí está el desglose del código:
-
 1. **Importaciones de paquetes:**
    ```java
    import java.util.ArrayList;
